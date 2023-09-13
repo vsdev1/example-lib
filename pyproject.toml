@@ -1,0 +1,20 @@
+[build-system]
+requires = [
+    "setuptools >= 68",
+    "wheel >= 0.41",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myexamplelib"
+version = "0.0.1"
+description = "example for shared code"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    {name = "Max Mustermann", email = "12345@gmail.com"},
+]
+urls = {source = "https://github.com/12345"}
+dependencies = [
+    "numpy >= 1.25.2",
+]

@@ -1,0 +1,2 @@
+# example-lib
+shared code
