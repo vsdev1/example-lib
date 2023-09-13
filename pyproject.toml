@@ -12,9 +12,16 @@ description = "example for shared code"
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [
-    {name = "Max Mustermann", email = "12345@gmail.com"},
+    {name = "Max Mustermann", email = "12345@dymmy.nothing"},
 ]
-urls = {source = "https://github.com/12345"}
+urls = {source = "https://github.com/vsdev1/example-lib"}
 dependencies = [
     "numpy >= 1.25.2",
 ]
+
+[tool.setuptools]
+packages = ["mypackage"]
+
+[tool.isort]
+profile = "black"
+src_paths = ["mypackage"]
